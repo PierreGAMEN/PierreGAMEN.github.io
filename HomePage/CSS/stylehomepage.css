@@ -1,0 +1,41 @@
+body {
+    background: var(--backgroundcolorHomePage);
+    color: var(--colordefault);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header__HomePage {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-around;
+    width: 100vw;
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.header__links {
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: var(--colordefault);
+
+}
+
+.header__projet {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: black;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
